@@ -1,0 +1,46 @@
+#a{
+    color: black;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+#b{
+    width: 55px;
+    height: 5px;
+    background-color: #3EAEF4;
+    position: fixed;
+    left: 48%;
+    top: 12%;
+}
+#c{
+    width: 10px;
+    height: 30px;
+    background-color: #00FF00;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-right: 23px;
+    margin-top: 20px;
+}
+#e{
+    font-family: 'Ysabeau SC', sans-serif;
+    text-transform: capitalize;
+    font-weight: 1000;
+}
+.a{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.boss{
+    display: flex;
+    justify-content: flex-start;
+}

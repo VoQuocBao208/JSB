@@ -1,0 +1,35 @@
+#tag1{
+  margin-bottom: 0%;}
+#tag2{
+  margin-top: 0%;
+  margin-bottom: 0%;}
+#contain{
+  text-align: center;
+  background-color:#8c04aa ;
+  padding:16px;}
+#contain2{
+  background-color: rgb(255, 255, 255);
+  border-radius: 32px;}
+#list{
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 0%;
+    margin-bottom: 0%;}
+#con1{
+  font-style: italic;
+  font-weight: bold;
+  color: brown;}
+#con2{
+  font-weight:bold;
+  color: coral;}
+#con3{
+  color: chartreuse;
+  font-weight: 900;}
+#pa{
+  color: gold;
+  font-size: 25px;
+  margin-bottom: 0%;}
+#po{
+  color: goldenrod;
+  font-size: 25px;
+  margin-top: 0%;}

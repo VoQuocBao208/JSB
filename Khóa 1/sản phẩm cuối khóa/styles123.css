@@ -1,0 +1,820 @@
+@font-face {
+    font-family: "Phantom Fingers";
+    src: url('./Phantom\ Fingers.ttf');
+}
+html{
+    scroll-behavior: smooth;
+}
+.main-title{
+    font-family: "Phantom Fingers";
+    font-size: 80px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+    position: -webkit-sticky; /*safari*/
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+.nav_items{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    width: 450px;
+}
+.item {
+    content: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.item a{
+    color:#fff;
+    width: 30px;
+}
+.item a:hover{    
+    color: chocolate ;
+}
+.img{
+    width: 100%;
+    height: 600px;
+}
+.main-title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%)
+}
+.home{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.home h2{
+    font-family: "Phantom Fingers";
+}
+.home p {
+    margin: 0;
+}
+#space1{
+    background-color: chocolate;
+    width: 165px;
+    height: 1px;
+    margin: 20px auto
+}
+.spacer1{
+    display: flex;
+   
+}
+#chu{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size:25px;
+    padding: 0 160px;
+    margin: 0%;
+}
+#chu p{
+    margin: 0%;
+    width: 650px;
+}
+.description_text{
+    width: 280px;
+    padding-left:16px ;
+}
+.description_text p{
+    font-size: 20px;
+    font-weight: 250;
+    line-height: 22px;
+}
+.description_detail{
+    display: flex;
+    margin-bottom: 48px;
+
+}
+.description_img{
+    display: flex;
+    align-items: center;
+}
+
+.description_img img{
+    width: 100px;
+}
+.container_description {
+    padding: 0 130px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.description_text h5{
+    color: #ff9c01;
+    font-size: 20px;
+    margin: 0 0 8px 0;
+}
+
+
+
+
+
+#services{
+    padding-top: 80px;
+}
+.service h2 {
+    font-size: 32px;
+    display: flex;
+    margin: 0%;
+    font-family: "Phantom Fingers";
+    width: 600px;
+}
+.service_container{
+    background-image: url("https://theme-halloween-drupal.michaelstauner.com/sites/default/files/2020-09/hero-5.jpg");
+    padding: 113px 0;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    margin-left:170px;
+}
+#space2{
+    width: 160px;
+    height: 1px;
+    background-color: #fff;
+    margin: 20px auto;
+}
+.nut{
+    display: flex;
+    justify-content: center;
+    margin-right: 65px;
+    margin-top: 30px; 
+}
+.button-white:hover{
+    background-color: #fff;
+    color: black;
+}
+.nut p{
+    width:40px ;
+    height:20px;
+    align-items: center;
+    font-weight: 700;
+}
+.nut a{
+    font-size: 14px;
+    padding: 10px 15px; 
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 35px; 
+    text-transform: uppercase;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+
+
+#gallery{
+ padding-top: 100px;
+ width: 100%;
+}
+.gallery{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+
+}
+.gallery h2{
+    font-size: 32px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    font-family: "Phantom Fingers";
+
+}
+.spacer3{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+#spacer3{
+    width: 160px;
+    height: 1px;
+    background-color: #ff9c01;
+}
+.cach{
+    margin-bottom: 70px;
+}
+.nav1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    margin-top: 23px;
+    margin-bottom: 24px;
+}
+.nav1_item{
+    margin: 0%;
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+    background-color: #36211b;
+
+}
+.nav1_item:hover{
+    background-color: #ff9c01;
+    color: black;
+}
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bi-ngo{
+    width: 23%;
+    height: auto;
+    transition: transform .2s;
+    object-fit: contain;
+}
+.bi-ngo:hover{
+    transform: scale(1.05);
+}
+
+
+
+.question-of-people{
+    margin: 0%;
+    justify-content: center;
+    margin-top: 300px;
+}
+.question-of-people h2{
+    font-size: 32px;
+    justify-content: center;
+    margin: 0%;
+    text-align: center;
+    font-family: "Phantom Fingers";
+
+}
+.question-of-people-img{
+    width: 100%;
+    position: relative;
+}
+.question-of-people-img img{
+    width: 100%;
+}
+.img-people-title{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    text-align: center;
+}
+
+
+
+#ticket{
+    padding: 70px 0;
+}
+.tickets-title{
+    width: 100%;
+    text-align: center;
+    font-family: "Phantom Fingers";
+}
+.tickets-title h2{
+    font-size:32px ;
+    font-weight: 700;
+    width: 100%;
+    margin: 0%;
+}
+.spacer6{
+    display: flex;
+    justify-content: center; 
+}
+#spacer6{
+    margin: 20px auto;
+    width: 160px;
+    height: 1px;
+    background-color:#ff9c01;
+}
+.boss-tickets{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.ticket{
+   width: auto; 
+}
+.ticket-item{
+    width: 198px;
+    height: 214px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 35px;
+    background-color: #36211b;
+    padding: 40px 20px;
+    margin-right: 0%;
+}
+.ticket-item h3{
+    color: #ff9c01;
+    font-family: 'Merriweather',serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.ticket-item h4{
+    font-size: 22px;
+    line-height: 30px;
+    font-family: 'Merriweather',serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-top: 0%;
+}
+.ticket-item p{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0%;
+}
+.nut-mua-hang-boder{
+    margin-top: 30px;
+}
+.nut-mua-hang{
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 35px;
+    color: #ff9c01;
+    padding:10px 15px ;
+    border: 2px solid #ff9c01;
+    cursor: pointer;
+    text-transform: uppercase;
+    line-height: 14px;
+    text-decoration: none;
+}
+.nut-mua-hang:hover{
+    background-color: #ff9c01;
+    color: black;
+}
+
+
+
+
+.Halloween-gif{
+   background-image:url("https://i.pinimg.com/originals/14/78/a3/1478a3528ac63cb90dbf92f3c166dc6c.gif") ;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 180px;
+}
+.halloween-costum{
+    width: 635px;
+    height: 209px;
+    padding: 80px 180px;
+    
+}
+.halloween-costum h2{
+    font-family: "Phantom Fingers";
+    font-size:32px ;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 4px;
+    margin: 0%;
+    text-align: center;
+}
+.spacer7{
+    display: flex;
+    justify-content: center; 
+}
+#spacer7{
+    margin: 20px auto;
+    width: 160px;
+    height: 1px;
+    background-color:#ffffff;
+}
+.halloween-costum p{
+    text-align: center;
+}
+.halloween-costum-nut{
+    width: 100%;
+    text-align: center;
+}
+.halloween-costum-nut a{
+    font-size: 14px;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 35px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.halloween-costum-nut a:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+
+
+#blog{
+    padding: 200px 0;
+}
+.blog-title{
+    width: 100%;
+    text-align: center;
+    font-family: "Phantom Fingers";
+}
+.blog-title h2{
+    font-size:32px ;
+    font-weight: 700;
+    width: 100%;
+    margin: 0%; 
+}
+.blog-img-items{
+    display: flex;
+    flex-direction: row;
+}
+.blog-img{
+    width: 426px;
+}
+.blog-img-item{
+    height: 50%;
+}
+.blog-img-item img{
+    width: 100%;
+}
+.blog-text{
+    height: 179px;
+    padding: 20px;
+    background-color: #36211b;
+}
+.blog-text h4{
+    font-size: 26px;
+    line-height: 30px;
+    font-family: 'Merriweather',serif;
+    font-weight: 300;
+    margin: 0%;
+}
+.blog-text h6{
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Merriweather',serif;
+    font-weight: 700;
+    color: #ff9c01;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.blog-text p{
+    margin: 0%;
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 300;
+}
+.blog-text a{
+    font-size: 14px;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 2px solid #ff9c01;
+    border-radius: 35px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #ff9c01;
+}
+.blog-text a:hover{
+    background-color: #ff9c01;
+    color: black;
+}
+
+
+
+
+
+.hooked {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: #36211b;
+}
+.hooked h2{
+    font-size:32px ;
+    font-weight: 700;
+    width: 100%;
+    margin: 0%; 
+    font-family: "Phantom Fingers";
+    display: flex;
+    justify-content: center;
+}
+.hooked a{
+    font-size: 14px;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 35px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.hooked a:hover{
+    background-color: #fff;
+    color: black;
+}
+#hooked-link-contact{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+.special{
+  background-image:url("https://images.pexels.com/photos/35888/amazing-beautiful-breathtaking-clouds.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 560px;
+  position: relative;
+  margin-top: 80px;
+}
+.special h2{
+    font-family: "Phantom Fingers";
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.special p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.special-div{
+    position: absolute;
+    left: 36px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 320px;
+    border-radius: 50%;
+    color: #fff;
+}
+.spacer11{
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 160px;
+    height: 1px;
+    margin-right: auto;
+    background-color: #ffffff;
+
+}
+#spacer11{
+    background-color: #ffffff;
+}
+
+
+
+
+
+#contact-us{
+    padding-top: 100px;
+    width: 100%;
+   }
+.contact-us{
+    margin: 0%;
+    justify-content: center;
+   }
+.contact-us h2{
+    font-size: 32px;
+    line-height: 70px;
+    justify-content: center;
+    margin: 0%;
+    text-align: center;
+    font-family: "Phantom Fingers";
+
+   }
+.spacer12{
+       display: flex;
+       justify-content: center;
+       margin: 20px 0;
+   }
+#spacer12{
+       width: 160px;
+       height: 1px;
+       background-color: #ff9c01;
+   }
+
+
+.boss-contact-us{
+    display: flex;
+    justify-content: center;
+}
+.boss-contact-us input{
+    color: #fff;
+}
+.boss-contact-us textarea{
+    color: #fff;
+}
+.information-contact-us{
+    padding: 0 20px;
+    margin-top: 20px;
+}
+.information{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.text{
+    background-color: #36211b;
+    appearance: none;
+    padding: 0;
+    font-size: 16px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+    line-height: 30px;
+    border: 0;
+    resize: none;
+    max-width: 100%;
+    height: 50px;
+    color: #fff;
+}
+
+
+.feed-back-contact-us{
+    margin: 0 20px;
+    margin-top: 20px;
+    width: 400px;
+}
+.feed-back{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.feed-back-end{
+    display: flex;
+}
+.feed-back-end-p{
+width: 80%;
+margin-top: 50px;
+}
+.checkbox{
+    display: flex;
+    align-self: flex-end;
+    margin-right: 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.button-orange{
+    background-color: #36211b;
+    border: 2px  solid #ff9c01;
+    color: #ff9c01;
+    border-radius: 35px;
+    padding: 6px 16px;
+    cursor: pointer;
+}
+.button-orange:hover{
+    background-color:#ff9c01;
+    color: black;
+}
+.nut7 p{
+    margin: 0%;
+}
+.nut7 a{
+    font-size: 14px;
+    padding: 16px 25px; 
+    color:#ff9c01;
+    text-decoration: none;
+    border: 2px solid #ff9c01;
+    border-radius: 35px; 
+    line-height: 14px;
+    display: flex;
+    align-items: end;
+}
+.nut7{
+    display: flex;
+    align-items: end;
+}
+.text1{
+    background-color: #36211b;
+    appearance: none;
+    padding: 0;
+    font-size: 16px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+    line-height: 30px;
+    border: 0;
+    resize: none;
+    max-width: 100%;
+    height: 145px;
+}
+
+.icon svg{
+    width: 23px;
+    height: 23px;
+}
+.icon{
+    width: 40px;
+    margin-bottom: 10px 0;
+}
+.footer{
+    margin-top: 200px;
+}
+.footer-theme{
+    margin: 0%;
+    justify-content: center;
+    width: 50%;
+}
+.footer-theme h2{
+    font-size: 32px;
+    justify-content: center;
+    margin: 0%;
+    text-align: center;
+    font-family: "Phantom Fingers";
+
+}
+.footer-link a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+.footer-p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footer-p p{
+    font-size: 20px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-the-end{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+    margin-top: 24px;
+}
+.footer-the-end ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0%;
+}
+.footer{
+    display: flex;
+}
+.img-map{
+    height: 385px;
+    margin: 0 24px;
+    width: 50%;
+}
+.img-map img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.footer-theme{
+    width: 50%;
+}
+
+
+
+/* #nen-form{
+    width: 100%;
+    height: 100%;
+    background-color:black ;
+    opacity: 0.7;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.nut-xac{
+    font-size: 30px;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: #ff9c01;
+    border-radius:35px ;
+    align-self: center;
+    
+} */
